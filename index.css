@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body {
+    background-color: #000220;
+    color: #000220;
+}
+
+.advice-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.advice-container h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;  
+}
+
+.advice-outline {
+    border: 2px solid #000220;
+    border-radius: 30px;
+}
+
+.advice-newsletter {
+    text-align: left;
+}
+
+.advice-outline img{
+    width:100%;
+    height: 450px;
+    padding: 10px;
+}
+
+.advice-box p {
+    background-color: #000220;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.advice-box button{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #000220;
+    color: #000220;
+    background-color: #fff;
+    font-size: 2rem;
+    cursor:pointer;
+    letter-spacing: 3px;
+    max-width: 100%;
+    box-shadow: inset 0 0 0 0 #000220;
+    transition: ease-out 0.3s;
+    outline: none;
+    margin-top: 10px;
+}
+
+.advice-box button:hover {
+    box-shadow: inset 300px 0 0 0 #000220;
+    color:#fff;
+    border-color:#fff;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 150px; 
+    overflow: hidden;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
